@@ -38,13 +38,13 @@ const Menu = () => {
                   <Popover.Button
                     className={`bg-background rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary`}
                   >
-                    <span className="sr-only">Open main menu</span>
+                    <span className="sr-only">Abrir menu</span>
                     <MenuIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
                 </div>
               </div>
             </div>
-            <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+            <div className="hidden md:block md:ml-5 md:pr-4 md:space-x-8">
               {navigation.map((item) => (
                 <Link
                   spy={true}
@@ -58,11 +58,12 @@ const Menu = () => {
                   {item.name}
                 </Link>
               ))}
+
               <a
-                href="#"
-                className={`font-medium text-primary hover:text-secondary`}
+                href="https://api.whatsapp.com/send?phone=5517991343817&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20cursinho%20poupular%20da%20FAMERP"
+                className={`font-medium text-primary hover:text-primary`}
               >
-                Call to action
+                Fale com a gente
               </a>
             </div>
           </nav>
@@ -92,7 +93,7 @@ const Menu = () => {
                   <Popover.Button
                     className={`bg-background rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary`}
                   >
-                    <span className="sr-only">Close main menu</span>
+                    <span className="sr-only">Fechar menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
                 </div>

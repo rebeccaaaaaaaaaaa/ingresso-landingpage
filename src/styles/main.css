@@ -4,20 +4,17 @@
 
 
 :root {
-  --color-primary: #ec4755;
-  --color-secondary: #a12c34;
-  --color-tertiaty: #99a0a3;
+  --color-primary: #044b89;
+  --color-tertiaty: #fff;
 }
 
 a { 
-  @apply text-red-700;
+  @apply cursor-pointer;
 }
 
 a:hover {
-  @apply border-b-2 border-red-700;
+  @apply text-white;
 }
-
-
 
 .content p {
   @apply my-6;
