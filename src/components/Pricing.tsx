@@ -1,11 +1,11 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 
 import config from '../config/index.json';
 
 const Pricing = () => {
   const { pricing } = config;
-  const { items, title } = pricing;
-  const [secondPlan] = items;
+  const { title } = pricing;
 
   return (
     <section className={`bg-background py-8`} id="horarios">
@@ -30,34 +30,49 @@ const Pricing = () => {
               className={`flex-1 bg-background rounded-t rounded-b-none overflow-hidden shadow`}
             >
               {/*
-                  <div className={`w-full p-8 text-3xl font-bold text-center`}>
-                {secondPlan?.name}
-              </div>  
+                  "Segunda-feira - 18:00 - 22:50",
+                  "Terça-feira - 18:00 - 22:50",
+                  "Quarta-feira - 18:00 - 22:50",
+                  "Quinta-feira - 18:00 - 22:50",
+                  "Sexta-feira - 18:00 - 22:50"
                 */}
               <div
                 className={`h-1 w-full bg-primary my-0 py-0 rounded-t`}
               ></div>
-              <ul className={`w-full text-center text-base font-bold`}>
-                {secondPlan?.features.map((feature) => (
-                  <li
-                    className={`border-b py-4`}
-                    key={`${secondPlan?.name}-${feature}`}
-                  >
-                    {feature}
-                  </li>
-                ))}
+              <ul className={`w-full text-center py-5 text-base font-bold`}>
+               <li className={`px-6 my-5 mb-5`}>
+                  <span className={`text-primary`}>
+                    Segunda-feira - 18:00 - 22:50
+                  </span>
+                  
+               </li>
+               <li className={`px-6 my-5 mb-5`}>
+                  <span className={`text-primary`}>
+                    Terça-feira - 18:00 - 22:50
+                  </span>
+                  
+               </li>
+               <li className={`px-6 my-5 mb-5`}>
+                  <span className={`text-primary`}>
+                    Quarta-feira - 18:00 - 22:50
+                  </span>
+                  
+               </li>
+               <li className={`px-6 my-5 mb-5`}>
+                  <span className={`text-primary`}>
+                    Quinta-feira - 18:00 - 22:50
+                  </span>
+                  
+               </li>
+               <li className={`px-6 my-5 mb-5`}>
+                  <span className={`text-primary`}>
+                    Sexta-feira - 18:00 - 22:50
+                  </span>
+                  
+               </li>
               </ul>
             </div>
-            <div
-              className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}
-            >
-              {/*
-                 <div className={`w-full pt-6 text-4xl font-bold text-center`}>
-                {secondPlan?.price}
-                <span className={`text-base`}> {secondPlan?.priceDetails}</span>
-              </div>
-               */}
-            </div>
+
           </div>
         </div>
       </div>
