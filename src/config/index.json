@@ -33,7 +33,7 @@
     },
     "secondaryAction": {
       "text": "Fale com a gente",
-      "href": "https://api.whatsapp.com/send?phone=5517991343817&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20cursinho%20poupular%20da%20FAMERP",
+      "href": "https://api.whatsapp.com/send?phone=5517991343817&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20cursinho%20popular%20da%20FAMERP",
       "img": "/assets/images/whatsapp.png"
     }
   },
@@ -54,7 +54,7 @@
   },
   "features": {
     "title": "Por que o cursinho Popular da FAMERP?",
-    "subtitle": "Conheça as vantagens do nosso cursinho poupular",
+    "subtitle": "Conheça as vantagens do nosso cursinho popular",
     "description": "",
     "items": [
       {
@@ -130,7 +130,7 @@
       "instagram": "https://www.instagram.com/cursinhoingresso/",
       "facebook": "https://www.facebook.com/cursinhoingresso",
       "youtube": "https://www.youtube.com/channel/UCuvxXblOZKdnX5RnPEteAtg",
-      "whatsapp": "https://api.whatsapp.com/send?phone=5517991343817&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20cursinho%20poupular%20da%20FAMERP"
+      "whatsapp": "https://api.whatsapp.com/send?phone=5517991343817&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20cursinho%20popular%20da%20FAMERP"
     }
   }
 }
