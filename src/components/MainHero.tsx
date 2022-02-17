@@ -28,9 +28,18 @@ const MainHero = () => {
           <div className="mt-3 sm:mt-0 sm:ml-3">
             <a
               href={mainHero.secondaryAction.href}
-              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background hover:bg-border hover:text-tertiaty md:py-4 md:text-lg md:px-10`}
+              style={{
+                backgroundColor: '#25D366',
+                color: '#fff',
+              }}
+              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary  hover:bg-border hover:text-tertiaty md:py-4 md:text-lg md:px-10`}
             >
               {mainHero.secondaryAction.text}
+              <img
+                style={{ marginLeft: '0.5rem' }}
+                src={mainHero.secondaryAction.img}
+                width={22}
+              />
             </a>
           </div>
         </div>

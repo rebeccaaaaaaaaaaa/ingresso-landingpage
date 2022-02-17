@@ -58,13 +58,6 @@ const Menu = () => {
                   {item.name}
                 </Link>
               ))}
-
-              <a
-                href="https://api.whatsapp.com/send?phone=5517991343817&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20cursinho%20poupular%20da%20FAMERP"
-                className={`font-medium text-primary hover:text-primary`}
-              >
-                Fale com a gente
-              </a>
             </div>
           </nav>
         </div>

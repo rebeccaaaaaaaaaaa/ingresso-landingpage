@@ -1,6 +1,6 @@
 {
   "company": {
-    "name": "Cursinho Ingresso - O cursinho poupular da FAMERP",
+    "name": "Cursinho Ingresso - O cursinho popular da FAMERP",
     "logo": "/assets/images/logo.png"
   },
   "navigation": [
@@ -32,12 +32,13 @@
       "href": "#diferenciais"
     },
     "secondaryAction": {
-      "text": "",
-      "href": ""
+      "text": "Fale com a gente",
+      "href": "https://api.whatsapp.com/send?phone=5517991343817&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20cursinho%20poupular%20da%20FAMERP",
+      "img": "/assets/images/whatsapp.png"
     }
   },
   "product": {
-    "title": "O cursinho poupular da FAMERP",
+    "title": "O cursinho Popular da FAMERP",
     "items": [
       {
         "title": "De alunos para alunos",
@@ -46,34 +47,34 @@
       },
       {
         "title": "Qualidade ETAPA",
-        "description": "Nosso cursinho popular trabalha com os meteriais do CURSO ETAPA, que é atualmente um dos melhores cursinhos pré vestibular do BRASIL.",
+        "description": "Nosso cursinho popular trabalha com os meteriais do ETAPA, que é atualmente um dos melhores cursinhos pré-vestibular do BRASIL.",
         "img": "/assets/images/image2.png"
       }
     ]
   },
   "features": {
-    "title": "Por que o cursinho poupular da FAMERP?",
+    "title": "Por que o cursinho Popular da FAMERP?",
     "subtitle": "Conheça as vantagens do nosso cursinho poupular",
     "description": "",
     "items": [
       {
         "name": "Custo baixo",
-        "description": "Nosso cursinho tem o foco de comtemplar alunos de baixa renda com preparação de qualidade para o vestibular, dando assim melhores chances para os alunos de escola pública.",
+        "description": "Nosso cursinho tem o foco de contemplar alunos de baixa renda com preparação de qualidade para o vestibular, dando assim melhores chances para os alunos de escola pública.",
         "icon": "/assets/images/1.png"
       },
       {
         "name": "Material completo",
-        "description": "Nosso aluno tem total acesso a materiais de qualidade. Com parceria com o Curso ETAPA, conseguimos disponibilizar materiais para todos os alunos matriculados.",
+        "description": "Nosso aluno tem total acesso a materiais de qualidade. Com parceria com o ETAPA, conseguimos disponibilizar materiais para todos os alunos matriculados.",
         "icon": "/assets/images/3.png"
       },
       {
-        "name": "Apoio pscopedagógico",
+        "name": "Apoio psicopedagógico",
         "description": "Oferecemos aos alunos um apoio psicopedagógico, com acompanhamento de atividades, orientação de estudos, entre outros.",
         "icon": "/assets/images/2.png"
       },
       {
         "name": "Plantões de dúvidas",
-        "description": "Nossa equipe de plantonistas oferece um horário especifico para ajudar os alunos a resolver dúvidas e acompanhar o desenvolvimento do aluno.",
+        "description": "Nossa equipe de plantonistas oferece um horário específico para ajudar os alunos a resolver dúvidas e acompanhar o seu desenvolvimento.",
         "icon": "/assets/images/4.png"
       }
     ]

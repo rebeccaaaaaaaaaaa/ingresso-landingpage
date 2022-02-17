@@ -70,6 +70,13 @@ const Pricing = () => {
                   </span>
                   
                </li>
+
+               <li className={`px-6 my-5 mb-5`}>
+                  <span className={`text-primary`}>
+                    * exceto feriados
+                  </span>
+                  
+               </li>
               </ul>
             </div>
 
