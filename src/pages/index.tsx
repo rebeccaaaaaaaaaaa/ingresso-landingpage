@@ -12,6 +12,7 @@ import MainHeroImage from '../components/MainHeroImage';
 import Pricing from '../components/Pricing';
 import Product from '../components/Product';
 import Sociais from '../components/Sociais';
+import WhatsFloat from '../components/WhatsFloat';
 import { AppConfig } from '../utils/AppConfig';
 
 const App = () => {
@@ -58,6 +59,8 @@ const App = () => {
           </>
         </LazyShow>
         <Analytics />
+
+        <WhatsFloat />
       </div>
     </>
   );
